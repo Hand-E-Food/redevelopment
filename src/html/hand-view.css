@@ -1,0 +1,13 @@
+div.hand {
+  height: calc(var(--lot-size) * 1.00);
+  width:  calc(var(--lot-size) * 6.00);
+
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  align-content: center;
+}
+
+div.hand.candrop {
+  background-color: #FFF5;
+}

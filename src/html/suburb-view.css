@@ -1,0 +1,38 @@
+table.suburb {
+  border-spacing: 0;
+}
+
+tr.suburb {
+  height: calc(var(--lot-size));
+}
+
+tr.border {
+  height: calc(var(--lot-size) / 2);
+}
+
+tr.land {
+  background-color: green;
+}
+
+tr.land>td {
+  border: solid 3px #333;
+}
+
+tr.beach {
+  background: linear-gradient(180deg, green 80%, gold 90%, white 95%, blue 100%);
+}
+
+tr.beach>td {
+  border-left:   solid 3px #333;
+  border-top:    solid 3px #333;
+  border-right:  solid 3px #333;
+  border-bottom: solid 3px blue;
+}
+
+tr.water {
+  background-color: blue;
+}
+
+tr.water>td {
+  border: solid 3px blue;
+}

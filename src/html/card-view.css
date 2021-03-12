@@ -1,0 +1,114 @@
+div.card-container {
+  width:  calc(var(--card-size) * 1.20);
+  height: calc(var(--card-size) * 1.70);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.card {
+  position: relative;
+  width:  calc(var(--card-size) * 1.00);
+  height: calc(var(--card-size) * 1.50);
+
+  background-color: white;
+  border-radius: calc(var(--card-size) * 0.05);
+  border-style:  solid;
+  border-width:  calc(var(--card-size) * 0.05);
+}
+
+img.card-icon, svg.card-icon {
+  position: absolute;
+  top:    calc(var(--card-size) * 0.02);
+  left:   calc(var(--card-size) * 0.02);
+  height: calc(var(--card-size) * 0.36);
+  width:  calc(var(--card-size) * 0.36);
+  object-fit: contain;
+}
+
+div.card-name {
+  position: absolute;
+  top:    calc(var(--card-size) * 0.02);
+  left:   calc(var(--card-size) * 0.40);
+  width:  calc(var(--card-size) * 0.58);
+  height: calc(var(--card-size) * 0.20);
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+span.card-name {
+  color: black;
+  font-size: calc(var(--card-size) * 0.08);
+  text-align: left;
+}
+
+img.card-image {
+  position: absolute;
+  top:    calc(var(--card-size) * 0.24);
+  left:   calc(var(--card-size) * 0.00);
+  width:  calc(var(--card-size) * 1.00);
+  height: calc(var(--card-size) * 0.66);
+  object-fit: cover;
+}
+
+table.card-scorings {
+  position: absolute;
+  top:     calc(var(--card-size) * 0.92);
+  left:    calc(var(--card-size) * 0.02);
+  width:   calc(var(--card-size) * 0.96);
+}
+
+tr.card-scorings {
+  margin: 0px;
+  padding: 0px;
+}
+
+td.card-scorings-text {
+  margin: 0px;
+  padding: 0px;
+}
+
+td.card-scorings-text>span {
+  padding-left:  calc(var(--card-size) * 0.02);
+  padding-right: calc(var(--card-size) * 0.02);
+}
+
+td.card-scorings-text>svg {
+  display: inline;
+  margin: 0px;
+  width:  calc(var(--card-size) * 0.08);
+  height: calc(var(--card-size) * 0.08);
+  padding: 0px;
+  vertical-align: bottom;
+}
+
+td.card-scorings-points {
+  width: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  text-align: right;
+  vertical-align: bottom;
+}
+
+table.card-points {
+  border: solid calc(var(--card-size) * 0.01) black;
+  border-spacing: 0px;
+}
+
+tr.card-points {
+  height: calc(var(--card-size) * 0.10);
+}
+
+td.card-points {
+  max-width: calc(var(--card-size) * 0.10);
+  min-width: calc(var(--card-size) * 0.10);
+  width:     calc(var(--card-size) * 0.10);
+
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+}

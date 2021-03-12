@@ -1,0 +1,43 @@
+div.tile {
+  margin: auto;
+  height:  calc(var(--tile-size) * 0.90);
+  width:   calc(var(--tile-size) * 0.90);
+  padding: calc(var(--tile-size) * 0.08);
+
+  border-radius: calc(var(--tile-size) * 0.06);;
+}
+
+div.tile.selected {
+  box-shadow: 0 0 calc(var(--tile-size) * 0.05) white;
+  filter: brightness(133%);
+}
+
+svg.tile {
+  height: 100%;
+  width:  100%;
+}
+
+div.tile>div {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.tile {
+  color: black;
+  font-size: calc(var(--tile-size) * 0.15);
+  margin: 0px;
+  padding: calc(var(--tile-size) * 0.05);
+  text-align: center;
+}
+
+td.lot>div.tile:nth-child(2) {
+  position: relative;
+  margin-top:    0%;
+  margin-right: 50%;
+  filter: opacity(67%);
+  zoom: 50%;
+}

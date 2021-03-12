@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  viewBox="-5 -5 130 130"
+  stroke-linecap="butt"
+  stroke-linejoin="bevel"
+>
+  <path fill-opacity="0%" d="
+    M  80 100
+    L 100  20
+    L 120 100
+  "/>
+  <path d="
+    M 100  20
+    L  80  10
+    L  80  30
+    Z
+  "/>
+  <ellipse cx="110" cy="20" rx="10" ry="20"/>
+  <rect x="20" y="60" width="80" height="60"/>
+  <path d="
+    M   0  60
+    L  40  30
+    L  80  30
+    L 120  60
+    Z
+  "/>
+</svg>

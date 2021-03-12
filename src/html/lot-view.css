@@ -1,0 +1,53 @@
+td.lot {
+  padding: 0px;
+  width:  calc(var(--lot-size) - 6px);
+}
+
+td.half-lot {
+  width:  calc(var(--lot-size) / 2 - 3px);
+}
+
+td.north {
+  border-top:    none !important;
+  border-bottom: dashed 3px red !important;
+}
+
+td.south {
+  border-bottom: none !important;
+}
+
+td.west {
+  border-left:  none !important;
+  border-right: dashed 3px red !important;
+}
+
+td.east {
+  border-right: none !important;
+  border-left:  dashed 3px red !important;
+}
+
+td.north-west {
+  border-top:  none !important;
+  border-left: none !important;
+}
+
+td.north-east {
+  border-top:   none !important;
+  border-right: none !important;
+}
+
+td.south-west {
+  border-bottom: none !important;
+  border-left:   none !important;
+  border-right:  dashed 3px red !important;
+}
+
+td.south-east {
+  border-bottom: none !important;
+  border-right:  none !important;
+  border-left:   dashed 3px red !important;
+}
+
+td.lot.candrop {
+  background-color: #FFF5;
+}

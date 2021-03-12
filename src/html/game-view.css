@@ -1,0 +1,10 @@
+body {
+  --lot-size:  calc(min(100vw / 7, 100vh / 6));
+  --tile-size: calc(var(--lot-size) * 0.75);
+  --card-size: calc(var(--lot-size) * 1.50);
+  background-color: #310;
+}
+
+table.game {
+  border-spacing: 0;
+}

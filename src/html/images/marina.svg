@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  viewBox="-5 -5 130 130"
+  stroke-linecap="butt"
+  stroke-linejoin="bevel"
+>
+  <path d="
+    M   5   0
+    v      20
+    q   0  20  15  30
+    q  15 -10  15 -30
+    v     -20
+    Z
+  " />
+  <path d="
+    M  45   0
+    v      20
+    q   0  20  15  30
+    q  15 -10  15 -30
+    v     -20
+    Z
+  " />
+  <path d="
+    M  85   0
+    v      20
+    q   0  20  15  30
+    q  15 -10  15 -30
+    v     -20
+    Z
+  " />
+  <path d="
+    M   5 120
+    v     -20
+    q   0 -20  15 -30
+    q  15  10  15  30
+    v      20
+    Z
+  " />
+  <path d="
+    M  45 120
+    v     -20
+    q   0 -20  15 -30
+    q  15  10  15  30
+    v      20
+    Z
+  " />
+  <path d="
+    M  85 120
+    v     -20
+    q   0 -20  15 -30
+    q  15  10  15  30
+    v      20
+    Z
+  " />
+  <rect x="0" y="50" width="120" height="20"/>
+</svg>

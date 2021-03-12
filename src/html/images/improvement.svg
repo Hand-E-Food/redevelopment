@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  viewBox="-5 -5 130 130"
+  stroke-linecap="butt"
+  stroke-linejoin="bevel"
+>
+  <path d="
+    M   0  40
+    H  40
+    V       0
+    H  80
+    V      40
+    H 120
+    V      80
+    H  80
+    V     120
+    H  40
+    V      80
+    H   0
+    Z
+  "/>
+</svg>
