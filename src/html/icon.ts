@@ -11,7 +11,10 @@ export class Icon {
   }
 
   public static loadIcons(): Promise<void[]> {
-    var promise = Promise.all(Object.values(BuildingTypes).map(this.loadIcon, this));
+    let promise = Promise.all([
+      ...Object.values(BuildingTypes).map(this.loadIcon, this),
+      this.loadIcon({ backColor: 'green', name: 'build' }),
+    ]);
 
     Object.values(Centuries).forEach(century => {
       let node = document.createElement('span');
